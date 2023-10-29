@@ -1,0 +1,204 @@
+/* All Common CSS Start */
+:root {
+  --wid: 95% !important;
+  --margin: 0 auto !important;
+}
+
+/* All Common CSS End */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    margin: var(--margin);
+    width: var(--wid);
+    overflow: hidden;
+  }
+
+  .afBorOne::after,
+  .afBorTwo::after,
+  .afBorThree::after {
+    display: none;
+  }
+
+  .counting_number {
+    width: 80%;
+    padding: 40px 0;
+  }
+  .headText h1 {
+    font-size: 40px;
+    line-height: 37px;
+    padding-bottom: 7px;
+    color: #ffffff9c;
+  }
+  .headText p {
+    padding-bottom: 0px;
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 10px;
+  }
+  .counterUp {
+    font-size: 25px;
+    color: #05ffe8d6;
+  }
+  .itemText {
+    font-weight: 500;
+    padding-top: 11px;
+    font-size: 13px;
+    color: #fcfcfc9c;
+    line-height: 17px;
+  }
+  .itam {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 12px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    margin: var(--margin);
+    width: var(--wid);
+    overflow: hidden;
+  }
+
+  .afBorOne::after,
+  .afBorTwo::after,
+  .afBorThree::after {
+    display: none;
+  }
+
+  .counting_number {
+    width: 80%;
+    padding: 40px 0;
+  }
+  .headText h1 {
+    font-size: 35px;
+    line-height: 37px;
+    padding-bottom: 7px;
+    color: #ffffff9c;
+  }
+  .headText p {
+    padding-bottom: 0;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .counterUp {
+    font-size: 18px;
+    color: #05ffe8d6;
+  }
+  .itemText {
+    font-weight: 500;
+    padding-top: 6px;
+    line-height: 12px;
+    font-size: 8px;
+    color: #fcfcfc9c;
+  }
+  .itam {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 12px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    margin: var(--margin);
+    width: var(--wid);
+    overflow: hidden;
+  }
+
+  .afBorOne::after,
+  .afBorTwo::after,
+  .afBorThree::after {
+    display: none;
+  }
+
+  .counting_number {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .headText h1 {
+    font-size: 35px;
+    line-height: 37px;
+    padding-bottom: 7px;
+    color: #ffffff9c;
+  }
+  .headText p {
+    padding-bottom: 0;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .counterUp {
+    font-size: 18px;
+    color: #05ffe8d6;
+  }
+  .itemText {
+    font-weight: 500;
+    padding-top: 6px;
+    line-height: 12px;
+    font-size: 8px;
+    color: #fcfcfc9c;
+  }
+  .itam {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 12px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    margin: var(--margin);
+    width: var(--wid);
+    overflow: hidden;
+  }
+
+  .afBorOne::after,
+  .afBorTwo::after,
+  .afBorThree::after {
+    display: none;
+  }
+
+  .counting_number {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .headText h1 {
+    font-size: 35px;
+    line-height: 37px;
+    padding-bottom: 7px;
+    color: #ffffff9c;
+  }
+  .headText p {
+    padding-bottom: 0;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .counterUp {
+    font-size: 18px;
+    color: #05ffe8d6;
+  }
+  .itemText {
+    font-weight: 500;
+    padding-top: 6px;
+    line-height: 12px;
+    font-size: 8px;
+    color: #fcfcfc9c;
+  }
+  .itam {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 12px;
+  }
+  .headText {
+    text-align: center;
+    padding-top: 160px;
+  }
+}

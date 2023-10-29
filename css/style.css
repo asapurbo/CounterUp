@@ -1,0 +1,118 @@
+/* ALL Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+/* ALL Common CSS End */
+
+/* All section start */
+#main {
+  height: 100vh;
+  background: #073863;
+}
+.headText {
+  text-align: center;
+  padding-top: 200px;
+}
+.counting_number {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: center;
+}
+.itemText {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fcfcfc9c;
+  text-transform: uppercase;
+  font-family: "DM Sans", sans-serif;
+  padding-top: 20px;
+}
+.afBorOne{
+  position: relative;
+  display: inline-block;
+}
+.afBorOne::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    background: #646363;
+    left: 150px;
+   top: -40px;
+}
+
+.afBorTwo{
+  position: relative;
+  display: inline-block;
+}
+.afBorTwo::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    background: #646363;
+    left: 158px;
+   top: -40px;
+}
+
+.afBorThree{
+  position: relative;
+  display: inline-block;
+}
+.afBorThree::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 80px;
+    background: #646363;
+    left: 183px;
+   top: -40px;
+}
+
+
+.headText h1 {
+  font-size: 40px;
+  color: #ffffff9c;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  padding-bottom: 20px;
+}
+.headText p {
+    color: #8d8a8a;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 40px;
+}
+.counterUp {
+  color: #05ffe8d6;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+/* All section end */
